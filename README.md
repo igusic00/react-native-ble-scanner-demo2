@@ -1,68 +1,15 @@
 # React Native Bluetooth Low Energy Scanner
 
-This is a quick and dirty prototype for a React Native app, that scans for Bluetooth Low Energy devices and displays device detections and their [RSSI](https://en.wikipedia.org/wiki/Received_signal_strength_indication).
+react-native-ble-scanner-demo2
 
-<div align="center">
-  <img src="./screenshot.jpg" width="300px"</img> 
-</div>
+library: react-native-ble-plx
 
-It uses:
+Setup:
 
-- [react-native-ble-plx](https://github.com/Polidea/react-native-ble-plx)
-- [react-native-elements](https://github.com/react-native-elements/react-native-elements)
+  1. git clone https://github.com/igusic00/react-native-ble-scanner-demo2.git
+  2. cd react-native-ble-scanner-demo2
+  3. npm install
+  4. react-native run-android
 
-## Getting started
 
-Install dependencies:
-
-```sh
-yarn
-```
-
-### iOS
-
-Make sure to install cocoapods (for macOS `sudo gem install cocoapods` or `brew install cocoapods`).
-
-Install pod:
-
-```sh
-cd ios
-pod install
-cd ..
-```
-
-Start packager:
-
-```sh
-yarn start
-```
-
-Run app in simulator or connected iPhone:
-
-```sh
-yarn ios
-```
-
-### Android
-
-Start packager:
-
-```sh
-yarn start
-```
-
-Run app in emulator or connected Android phone:
-
-```sh
-yarn android
-```
-
-## Troubleshooting
-
-### Gradle problems
-
-Consider this [Gradle issue](https://github.com/Polidea/react-native-ble-plx/issues/628#issuecomment-607473957).
-
-### Android: Device is not authorized to use BluetoothLE
-
-Open "Settings -> Apps -> blescanner -> Permissions -> Location -> Allow"
+![demo2](https://user-images.githubusercontent.com/17699343/171421434-82035748-1bb3-41d2-b94a-6b5df7a8961a.png)
